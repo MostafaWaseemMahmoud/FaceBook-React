@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FaceBook-React/static/css/main.a506d392.css",
+    "main.js": "/FaceBook-React/static/js/main.e4027cd4.js",
+    "static/js/453.d76faef2.chunk.js": "/FaceBook-React/static/js/453.d76faef2.chunk.js",
+    "static/media/logo.svg": "/FaceBook-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/FaceBook-React/index.html",
+    "main.a506d392.css.map": "/FaceBook-React/static/css/main.a506d392.css.map",
+    "main.e4027cd4.js.map": "/FaceBook-React/static/js/main.e4027cd4.js.map",
+    "453.d76faef2.chunk.js.map": "/FaceBook-React/static/js/453.d76faef2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a506d392.css",
+    "static/js/main.e4027cd4.js"
+  ]
+}
