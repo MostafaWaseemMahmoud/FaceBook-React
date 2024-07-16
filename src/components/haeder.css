@@ -1,0 +1,149 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 11px;
+    background-color: #3A3B3C;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 12px;
+}
+
+.search i {
+    padding: 11px;
+    padding-right: 5px;
+    background-color: #3A3B3C;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logo {
+    background-image: url(../../public/icons8-facebook-48.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    background-color: #1c1e21;
+    height: 71px;
+    width: 100%;
+    border-bottom: solid #3e4042 1px;
+}
+
+.display-none {
+    display: none;
+}
+
+.all-raduice {
+    border-radius: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searched-user {
+    position: absolute;
+    background-color: #242526;
+    min-width: 257px;
+    min-height: 257px;
+    top: 63px;
+    left: 51px;
+    border-radius: 40px;
+    display: none;
+}
+
+.notFoundUser {
+    display: block;
+    max-height: 88px;
+    position: absolute;
+    background-color: #242526;
+    min-width: 257px;
+    top: 63px;
+    left: 51px;
+    border-radius: 40px;
+    display: none;
+}
+
+.not-Found {
+    display: flex;
+    color: #fff;
+    margin-left: 7px;
+    width: 257px;
+    height: 257px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block {
+    display: block;
+}
+
+.succ {
+    display: flex;
+    color: #fff;
+    margin-left: 7px;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+img.succ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#userSearched {
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.navigation i {
+    margin-left: 90px;
+    font-size: 30px;
+    padding: 10px 48px;
+    border-radius: 15px;
+    color: #b0b3b8;
+}
+
+.navigation i:hover {
+    cursor: pointer;
+    background-color: #3a3b3c;
+}
+
+.profileImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+}

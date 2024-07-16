@@ -1,0 +1,130 @@
+.userInfo {
+    width: 100%;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover img {
+    width: 1499px;
+    height: 561px;
+    border-radius: 15px;
+}
+
+.profile-img {
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    border: solid 3px #b0b3b8;
+}
+
+.profileinfo {
+    position: absolute;
+    top: 60%;
+    left: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-name {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 46px;
+}
+
+.friends-length {
+    margin-left: 20px;
+    color: #b0b3b8;
+}
+
+.friend-image {
+    margin-right: -1px;
+    margin-top: 5px;
+    border: solid 3px #b0b3b8;
+}
+
+.friend-image {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+}
+
+.userData {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 1445px;
+}
+
+.add-friend {
+    position: absolute;
+    right: 0;
+    width: 114px;
+    height: 50px;
+    padding-left: 199px;
+    padding: 20px;
+    margin-top: 47px;
+}
+
+.Btn {
+    padding: 15px 20px;
+    background: #0866ff;
+    color: #fff;
+    border: none;
+    border-radius: 11px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    margin-left: -136px;
+}
+
+.errorBtn {
+    background-color: rgb(218, 26, 68)
+}
+
+.SuccBtn {
+    background-color: lightgreen;
+}
+
+.posts {
+    margin-top: 300px;
+    margin-left: 652px;
+}
+
+.posts img {
+    width: 700px;
+}
+
+.post {
+    background-color: #242526;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.post h1,
+.post p {
+    margin: 20px;
+    color: #ffff;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+}
+
+.post-title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: solid 3px #b0b3b8;
+}

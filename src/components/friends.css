@@ -1,0 +1,31 @@
+.friendCard img {
+    width: 280px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.friendCard {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1c1e21;
+    max-width: 281px;
+    margin: 20px;
+}
+
+.friendCard h1 {
+    margin-left: 20px;
+}
+
+.friendsCards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}

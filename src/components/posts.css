@@ -1,0 +1,122 @@
+img {
+    width: 700px;
+}
+
+.addpostForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.addpostForm input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    min-width: 292px;
+    /* border-top: gray solid 2px;
+    border-bottom: gray solid 2px;
+    border-right: gray solid 2px; */
+}
+
+.addpostForm img {
+    width: 30px;
+    height: 30px;
+}
+
+.postLayOut {
+    background-color: #1c1e21;
+    /* border-bottom: solid #3e4042 1px; */
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: 80px;
+}
+
+.pagecenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 4px 4px;
+}
+
+.fa-camera {
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 4px 0;
+}
+
+#add-photo-icon {
+    display: none;
+}
+
+.postBtn {
+    background-color: #039be5;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/* 1374 */
+
+
+@media screen and (max-width: 1372px) {
+    .posts-pos {
+        position: absolute;
+        left: 26%;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .posts-pos {
+        position: absolute;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 823px) {
+    .posts-pos {
+        position: absolute;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .posts-pos {
+        position: absolute;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .posts-pos {
+        position: absolute;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .posts-pos {
+        position: absolute;
+        left: 1%;
+    }
+}

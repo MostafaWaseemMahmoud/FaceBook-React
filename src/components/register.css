@@ -1,0 +1,81 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fileinput {
+    display: none;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cont {
+    background-color: #039be5;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.cont input {
+    padding: 15px 11px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 11px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: solid 2.5px gray;
+    outline: none;
+    width: 221px;
+}
+
+.feild-error {
+    color: rgb(224, 139, 27);
+    display: none;
+}
+
+.fa-exclamation-triangle {
+    color: rgb(255, 166, 0);
+}
+
+.cont label {
+    margin-left: 58px;
+    margin-bottom: 41px;
+}
+
+.cont label i {
+    margin-top: 36px;
+    font-size: 44px;
+    border: dashed 4px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: -3px;
+}
+
+.block {
+    display: block;
+}
+
+.Btn {
+    padding: 15px 20px;
+    background: #0866ff;
+    color: #fff;
+    border: none;
+    border-radius: 11px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    margin-left: 56px;
+    margin-top: 21px;
+}
+
+.login-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
